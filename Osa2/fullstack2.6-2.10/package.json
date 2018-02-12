@@ -14,6 +14,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "server": "json-server -p3001 db.json"
-  }
+    "server": "json-server -p3001 db.json",
+    "watch": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  },
+   "proxy": "http://localhost:3001"
 }
