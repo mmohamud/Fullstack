@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+content-type: application/json
+
+{
+    "title": "testiblogiWithUser",
+    "author": "User",
+    "url": "www.testiosoite.fi",
+    "likes": "12",
+    "user": "5a9019b8013fed106fe088ff"
+}
